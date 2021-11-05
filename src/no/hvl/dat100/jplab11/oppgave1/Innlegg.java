@@ -6,14 +6,22 @@ public abstract class Innlegg {
 	
 	// TODO - deklarering av objektvariable
 	
+	private String bruker;
+	private String dato;
+	private int id;
+	private int likes;
+	
+	
 	public Innlegg() {
 		
 	}
 	
 	public Innlegg(int id, String bruker, String dato) {
 
+		
+		
 		// TODO 
-		throw new UnsupportedOperationException(TODO.constructor("Innlegg"));
+		//throw new UnsupportedOperationException(TODO.constructor("Innlegg"));
 	}
 
 	public Innlegg(int id, String bruker, String dato, int likes) {
@@ -24,17 +32,21 @@ public abstract class Innlegg {
 	}
 	
 	public String getBruker() {
+		return bruker;
 		
-		throw new UnsupportedOperationException(TODO.method());
+		//throw new UnsupportedOperationException(TODO.method());
 
 	}
 
 	public void setBruker(String bruker) {
-		throw new UnsupportedOperationException(TODO.method());
+		
+		
+		//throw new UnsupportedOperationException(TODO.method());
 	}
 
 	public String getDato() {
-		throw new UnsupportedOperationException(TODO.method());
+		return dato;
+		//throw new UnsupportedOperationException(TODO.method());
 		
 	}
 
@@ -43,12 +55,14 @@ public abstract class Innlegg {
 	}
 
 	public int getId() {
-		throw new UnsupportedOperationException(TODO.method());
+		return id;
+		//throw new UnsupportedOperationException(TODO.method());
 
 	}
 
 	public int getLikes() {
-		throw new UnsupportedOperationException(TODO.method());
+		return likes;
+		//throw new UnsupportedOperationException(TODO.method());
 
 	}
 	
